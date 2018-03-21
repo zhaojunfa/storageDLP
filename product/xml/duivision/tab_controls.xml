@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<div pos="0,75,-0,-0">
+
+  <text pos="30,25,250,40" crtext="808080" title="检测策略" tip="检测策略信息" />
+  <text pos="50,65,250,80" crtext="808080" title="更新时间：" tip="检测策略更新时间" />
+  
+  <edit name="edit.checkp.time" skin="IDB_EDIT" pos="110,60,250,85" title="2017-07-20" crtext="255,0,0,255"
+        number="0" maxchar="15" readonly="1" font="default"/>
+  
+  
+  <text pos="50,105,120,120" crtext="808080" title="服务器IP：" tip="策略下发的服务器IP" />
+  <edit name="edit.check.ip" skin="IDB_EDIT" pos="110,100,250,125" title="172.18.37.131" crtext="255,0,0,255"
+        number="0" maxchar="15" readonly="0" font="default"/>
+  
+  <text pos="260,105,320,120" crtext="808080" title="端口：" tip="策略下发的服务器端口" />
+
+  <edit name="edit.check.port" skin="IDB_EDIT" pos="320,100,460,125" title="443" crtext="255,0,0,255"
+        number="0" maxchar="15" readonly="0" font="default"/>
+  
+
+  <text pos="30,145,320,160" crtext="808080" title="扫描策略" tip="扫描策略信息" />
+  <text pos="50,185,250,200" crtext="808080" title="任务名称：" tip="" />
+  <edit name="edit.scan.name" skin="IDB_EDIT" pos="110,180,250,205" title="" crtext="255,0,0,255"
+        number="0" maxchar="15" readonly="1" font="default"/>
+  <text pos="260,185,330,200" crtext="808080" title="更新时间：" tip="" />
+  <edit name="edit.scan.time" skin="IDB_EDIT" pos="320,180,470,205" title="" crtext="255,0,0,255"
+        number="0" maxchar="15" readonly="1" font="default"/>
+  <text pos="50,230,250,245" crtext="808080" title="开始时间：" tip="" />
+  <edit name="edit.scan.starttime" skin="IDB_EDIT" pos="110,225,250,250" title="" crtext="255,0,0,255"
+        number="0" maxchar="15" readonly="1" font="default"/>
+  <text pos="260,230,330,245" crtext="808080" title="结束时间：" tip="" />
+  <edit name="edit.scan.endtime" skin="IDB_EDIT" pos="320,225,470,250" title="" crtext="255,0,0,255"
+        number="0" maxchar="15" readonly="1" font="default"/>
+  <text pos="50,275,280,290" crtext="808080" title="当前状态：" tip="" />
+  <edit name="edit.scan.state" skin="IDB_EDIT" pos="110,270,250,295" title="" crtext="255,0,0,255"
+        number="0" maxchar="15" readonly="1" font="default"/>
+
+  <text pos="50,320,280,335" crtext="808080" title="正在扫描：" tip="" />
+  <edit name="edit.scan.path" skin="IDB_EDIT" pos="110,315,470,340" title="" crtext="255,0,0,255"
+        number="0" maxchar="15" readonly="1" font="default"/>
+   
+
+</div>

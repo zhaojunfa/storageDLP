@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+
+<dlg name="dlg_tepnotice" title="" width="320" height="420" appwin="0" resize="0" 
+	frame="" bkimg="" crbk="000000" topmost="1"
+	img-shadow="skins\360\window_shadow.png" shadow-wlt="5" shadow-hlt="3" shadow-wrb="5" shadow-hrb="7" >
+
+  <base>
+    <imgbtn name="button.close" pos="-45,0,-0,29" skin="IDB_BT_CLOSE" show="1" shortcut="ESC" />
+    <text name="title" crtext="FF0000" crmark="800000" font="big"
+				pos="10,5,200,25" title="警告：检测到敏感" mask="" response="0" show="1" />
+  </base>
+
+  <body>
+    <!--
+    <area name="area-1" pos="0,0,-0,140" crbk="FF0000" begin-transparent="100" end-transparent="40" />
+    <area name="area-2" pos="0,140,-0,-0" begin-transparent="40" end-transparent="40" />
+    <area name="area-3" pos="0,-37,-0,-36" begin-transparent="70" end-transparent="70" />
+    <area name="area-4" pos="0,-36,-0,-0" begin-transparent="88" end-transparent="88" />
+    -->
+
+    <text name="nc.content" pos="40,50,300,200" crtext="" crmark="" font="default" 
+          title="您正视图移动，复制，保存或转让内容可能包含敏感信息" />
+    
+    
+    <text name="nc.resultitle" pos="10,120,300,300" crtext="" crmark="" font="default" 
+          title="处理结果："/>
+
+    <text name="nc.resultcontent" pos="40,140,300,200" crtext="" crmark="" font="default"
+          title="已阻断对此敏感信息的操作，文件将无法移动、复制、保存或传输！"/>
+    
+    <text name="nc.reason" pos="10,180,300,300" crtext="" crmark="" font="default" title="理由"/>
+    
+    <radiobtn name="radio.reason1" skin="IDB_RADIO_BUTTON" title="1，我不知道传输这些数据收到限制。"
+      pos="40,200,280,220" check="true" group="radio_group_reason"  show="1" />
+    <radiobtn name="radio.reason2" skin="IDB_RADIO_BUTTON" title="2，这是一个既定的业务流程的一部分。"
+      pos="40,220,280,240" check="false" group="radio_group_reason" show="1" />
+    <radiobtn name="radio.reason3" skin="IDB_RADIO_BUTTON" title="3，我的经理批准这种数据的传输。"
+      pos="40,240,280,260" check="false" group="radio_group_reason" show="1" />
+    <radiobtn name="radio.reason4" skin="IDB_RADIO_BUTTON" title="4，没有这些文件的机密数据。"
+      pos="40,260,280,280" check="false" group="radio_group_reason" show="1" />
+    <radiobtn name="radio.reason5" skin="IDB_RADIO_BUTTON" title="其他"
+      pos="40,280,90,300" check="false" group="radio_group_reason" show="1" />
+    <edit name="edit.otherreason" skin="IDB_EDIT" pos="90,280,280,300" title="" crtext="255,0,0,255"
+      number="0" maxchar="200" readonly="0" font="default"/>
+    <chkbtn name="checkbutton" skin="IDB_CHECK_BOX"
+			pos="40,300,280,320" width="200" height="22" show="1" title="将此理由应用到此操作产生的后续对话框" check="true" />
+
+
+    <button name="button.ok" skin="IDB_BT_DEFAULT" title="确定"
+				pos="-100,-30,-20,-6" show="1" shortcut="RETURN" />
+
+  </body>
+
+</dlg>

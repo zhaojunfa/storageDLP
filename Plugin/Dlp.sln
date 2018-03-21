@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SendToCheck", "SendToCheck\SendToCheck.vcxproj", "{FF54FEF5-FE95-409C-BCA4-5F728247C781}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PolicyCenter", "PolicyCenter\PolicyCenter.vcxproj", "{04DB8C13-8D9A-4D68-9ACD-5BC26061A737}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FF54FEF5-FE95-409C-BCA4-5F728247C781}.Debug|Win32.ActiveCfg = Debug|Win32
+		{FF54FEF5-FE95-409C-BCA4-5F728247C781}.Debug|Win32.Build.0 = Debug|Win32
+		{FF54FEF5-FE95-409C-BCA4-5F728247C781}.Debug|x64.ActiveCfg = Debug|Win32
+		{FF54FEF5-FE95-409C-BCA4-5F728247C781}.Debug|x64.Build.0 = Debug|Win32
+		{FF54FEF5-FE95-409C-BCA4-5F728247C781}.Release|Win32.ActiveCfg = Release|Win32
+		{FF54FEF5-FE95-409C-BCA4-5F728247C781}.Release|Win32.Build.0 = Release|Win32
+		{FF54FEF5-FE95-409C-BCA4-5F728247C781}.Release|x64.ActiveCfg = Release|x64
+		{FF54FEF5-FE95-409C-BCA4-5F728247C781}.Release|x64.Build.0 = Release|x64
+		{04DB8C13-8D9A-4D68-9ACD-5BC26061A737}.Debug|Win32.ActiveCfg = Debug|Win32
+		{04DB8C13-8D9A-4D68-9ACD-5BC26061A737}.Debug|Win32.Build.0 = Debug|Win32
+		{04DB8C13-8D9A-4D68-9ACD-5BC26061A737}.Debug|x64.ActiveCfg = Debug|x64
+		{04DB8C13-8D9A-4D68-9ACD-5BC26061A737}.Debug|x64.Build.0 = Debug|x64
+		{04DB8C13-8D9A-4D68-9ACD-5BC26061A737}.Release|Win32.ActiveCfg = Release|Win32
+		{04DB8C13-8D9A-4D68-9ACD-5BC26061A737}.Release|Win32.Build.0 = Release|Win32
+		{04DB8C13-8D9A-4D68-9ACD-5BC26061A737}.Release|x64.ActiveCfg = Release|x64
+		{04DB8C13-8D9A-4D68-9ACD-5BC26061A737}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

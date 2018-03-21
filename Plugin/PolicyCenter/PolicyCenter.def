@@ -1,0 +1,8 @@
+LIBRARY	"PolicyCenter"
+EXPORTS
+	DllRegisterServer	PRIVATE
+	DllUnregisterServer	PRIVATE
+	Startup				PRIVATE
+	StopUp				PRIVATE
+
+

@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+
+<!--系统配置-->
+<res type="cfg" name="defaultStyle" value="" />
+<res type="cfg" name="logfile" value="demoui.log" />
+<res type="cfg" name="loglevel" value="1" />
+<res type="cfg" name="logFileSize" value="1024" />
+<res type="cfg" name="logFileNumber" value="5" />
+<res type="cfg" name="appMutex" value="TEPTRAYHOST" />
+<res type="cfg" name="enableDragFile" value="3" />
+<res type="cfg" name="trayDbClickMsg" value="1" />
+<res type="cfg" name="interpDll" value="interp\tcl\bin\TclInterp.dll" />
+<res type="cfg" name="interpDll_d" value="interp\tcl\bin\TclInterp_d.dll" />
+<res type="cfg" name="interpInstance" value="DuiVisionTclScript" />
+<res type="cfg" name="mainScript" value="script\tcl\test_dui_gridctrl.tcl" />
+<res type="cfg" name="dpiAware" value="0" dpix="" dpiy="" />
+
+<!--风格设置-->
+<!--每种风格可以定义名字后面增加1x-4x的四种风格,分别表示DPI为原始的125%,150%,175%,200%四种分辨率下的风格,dpiAware设置为3才生效-->
+<res type="style" name="default" value="" />
+<res type="style" name="default1x" value="default1x" />
+<res type="style" name="default2x" value="default2x" />
+<res type="style" name="default3x" value="default3x" />
+<res type="style" name="default4x" value="default4x" />
+<res type="style" name="qq" value="qq" />
+
+<!--XML资源-->
+<res type="res" lang="zh-cn" file="xml\def_string_zh-cn.xml" />
+<res type="res" lang="en-us" file="xml\def_string_en-us.xml" />
+
+<!--XML资源-默认风格-->
+<res type="xml" name="dlg_main" file="xml\duivision\dlg_main.xml" />
+  
+
+<res type="xml" name="tab_policys" file="xml\duivision\tab_policys.xml" />
+<res type="xml" name="tab_controls" file="xml\duivision\tab_controls.xml" />
+<res type="xml" name="tab_listctrl" file="xml\duivision\tab_listctrl.xml" />
+<res type="xml" name="tab_gridctrl" file="xml\duivision\tab_gridctrl.xml" />
+<res type="xml" name="tab_gridctrl_header" file="xml\duivision\tab_gridctrl_header.xml" />
+<res type="xml" name="tab_treectrl" file="xml\duivision\tab_treectrl.xml" />
+<res type="xml" name="tab_browser" file="xml\duivision\tab_browser.xml" />
+<res type="xml" name="tab_ext" file="xml\duivision\tab_ext.xml"  />
+<res type="xml" name="tab_gridisolate" file="xml\duivision\tab_gridisolate.xml"  />
+<res type="xml" name="tab_isolateset" file="xml\duivision\tab_isolateset.xml"/>
+
+  <res type="xml" name="dlg_about" file="xml\duivision\dlg_about.xml"  />
+<res type="xml" name="dlg_login" file="xml\duivision\dlg_login.xml"  />
+<res type="xml" name="dlg_flashlogin" file="xml\duivision\dlg_flashlogin.xml"  />
+<res type="xml" name="dlg_option" file="xml\duivision\dlg_option.xml"  />
+<res type="xml" name="dlg_notice" file="xml\duivision\dlg_notice.xml"  />
+<res type="xml" name="dlg_ie" file="xml\duivision\dlg_ie.xml"  />
+<res type="xml" name="dlg_wke" file="xml\duivision\dlg_wke.xml"  />
+<res type="xml" name="dlg_skin" file="xml\dlg_skin.xml"  />
+<res type="xml" name="dlg_notifymsg" file="xml\dlg_notifymsg.xml"  />
+<res type="xml" name="dlg_msgbox" file="xml\dlg_msgbox.xml"  />
+  
+<res type="xml" name="dlg_setserver" file="xml\duivision\dlg_setserver.xml" />
+<res type="xml" name="dlg_setmaxthread" file="xml\duivision\dlg_setmaxthread.xml" />
+<res type="xml" name="dlg_setscandir" file="xml\duivision\dlg_setscandir.xml" />
+<res type="xml" name="dlg_setisodir" file="xml\duivision\dlg_setisodir.xml" />
+<res type="xml" name="dlg_setsafedir" file="xml\duivision\dlg_setsafedir.xml" />
+
+
+<res type="xml" name="menu_main" file="xml\duivision\menu_main.xml"  />
+<res type="xml" name="menu_tray00" file="xml\duivision\menu_tray.xml"  />
+<res type="xml" name="menu_ext" file="xml\duivision\menu_ext.xml"  />
+
+<res type="xml" name="dlg_360" file="xml\360\dlg_360.xml"  />
+<res type="xml" name="dlg_pcmgr" file="xml\pcmgr\dlg_pcmgr.xml"  />
+<res type="xml" name="dlg_tepnotice" file="xml\duivision\dlg_tepnotice.xml" />
+
+<!--字体资源-->
+<res type="font" lang="zh-cn" name="default" font="微软雅黑" size="12" bold="false" />
+<res type="font" lang="zh-cn" name="default" font="Tahoma" size="11" bold="false" os="winxp" />
+<res type="font" lang="zh-cn" name="bold" font="微软雅黑" size="12" bold="true" />
+<res type="font" lang="zh-cn" name="bold" font="Tahoma" size="11" bold="true" os="winxp" />
+<res type="font" lang="zh-cn" name="big" font="微软雅黑" size="14" bold="true" italic="false" underline="false" strikeout="false" />
+<res type="font" lang="zh-cn" name="big" font="Tahoma" size="12" bold="true" italic="false" underline="false" strikeout="false" os="winxp" />
+<res type="font" lang="zh-cn" name="bigbig" font="微软雅黑" size="18" />
+<res type="font" lang="zh-cn" name="bigbig" font="Tahoma" size="17" os="winxp" />
+<res type="font" lang="zh-cn" name="italic" font="微软雅黑" size="12" bold="false" italic="true" />
+<res type="font" lang="zh-cn" name="italic" font="Tahoma" size="11" bold="false" italic="true" os="winxp" />
+<res type="font" lang="zh-cn" name="underline" font="微软雅黑" size="12" bold="false" underline="true" />
+<res type="font" lang="zh-cn" name="underline" font="Tahoma" size="11" bold="false" underline="true" os="winxp" />
+<res type="font" lang="zh-cn" name="strikeout" font="微软雅黑" size="12" bold="false" strikeout="true" />
+<res type="font" lang="zh-cn" name="strikeout" font="Tahoma" size="11" bold="false" strikeout="true" os="winxp" />
+
+<!--图片资源-默认风格-->
+<res type="img" name="IDB_TRAY_ICON" file="skins\dui.ico" />
+<res type="img" name="IDB_MAIN_FRAME" file="skins\default\WindowsBack.png" />
+<res type="img" name="IDB_BT_CLOSE" file="skins\default\BT_CLOSE.png" />
+<res type="img" name="IDB_BT_MIN" file="skins\default\BT_MIN.png" />
+<res type="img" name="IDB_BT_MENU" file="skins\default\BT_MENU.png" />
+<res type="img" name="IDB_BT_SKIN" file="skins\default\BT_SKIN.png" />
+<res type="img" name="IDB_BT_SETUP" file="skins\default\BT_SETUP.png" />
+<res type="img" name="IDB_BT_DEFAULT" file="skins\default\BT_DEFAULT.png" />
+<res type="img" name="IDB_BT_ICON" file="skins\default\BT_ICON.png" />
+<res type="img" name="IDB_BT_GREEN" file="skins\default\BT_GREEN.png" />
+<res type="img" name="IDB_BT_CANCEL" file="skins\default\BT_CANCEL.png" />
+<res type="img" name="IDB_CHECK_BOX" file="skins\default\CHECK_BOX.png" />
+<res type="img" name="IDB_RADIO_BUTTON" file="skins\default\RADIO_BUTTON.png" />
+<res type="img" name="IDB_EDIT" file="skins\default\EDIT.png" />
+<res type="img" name="IDB_COMBO_ITEM" file="skins\default\COMBO_ITEM.png" />
+<res type="img" name="IDB_COMBO_ITEM_CLOSE" file="skins\default\COMBO_ITEM_CLOSE.png" />
+<res type="img" name="IDB_PROGRESS" file="skins\default\Progress.png" />
+<res type="img" name="IDB_PROGRESS_GREEN_BACK" file="skins\default\progress_background_icon.png" />
+<res type="img" name="IDB_PROGRESS_GREEN_FORE" file="skins\default\progress_foreground_icon.png" />
+<res type="img" name="IDB_SCROLL_V" file="skins\default\SCROLL_V.png" />
+<res type="img" name="IDB_SCROLL_H" file="skins\default\SCROLL_H.png" />
+<res type="img" name="IDB_BT_SCROLL_UP" file="skins\default\BT_SCROLL_UP.png" />
+<res type="img" name="IDB_BT_SCROLL_DOWN" file="skins\default\BT_SCROLL_DOWN.png" />
+<res type="img" name="IDB_TAB_SEPERATOR" file="skins\default\Tab_seperator.png" />
+<res type="img" name="IDB_TAB_SEPERATOR_V" file="skins\default\Tab_seperator_v.png" />
+<res type="img" name="IDB_TAB_ITEM" file="skins\default\tab.png" />
+<res type="img" name="IDB_TAB_BACK" file="skins\default\tab_background.png" />
+<res type="img" name="IDB_TAB_HOVER" file="skins\default\toolbar_hover.png" />
+<res type="img" name="IDB_TAB_HOVER_V" file="skins\default\toolbar_hover_v.png" />
+<res type="img" name="IDB_LIST_IMG" file="skins\default\list_img.png" />
+<res type="img" name="IDB_MSGDLG_BK" file="skins\default\msgdlg_bk.png" />
+<res type="img" name="IDB_TREE_COLLAPSE" file="skins\default\tree_collapse.png" />
+<res type="img" name="IDB_TREE_TOGGLE" file="skins\default\tree_toggle.png" />
+<res type="img" name="IDB_TREE_CHECKBOX" file="skins\default\tree_checkbox.png" />
+<res type="img" name="IDB_TREE_ICON" file="skins\default\tree_icon.png" />
+<res type="img" name="IDB_BT_SKIN_CUSTOMIZE" file="skins\default\BT_SKIN_CUSTOMIZE.png" />
+<res type="img" name="IDB_BT_SKIN_IMAGE" file="skins\default\BT_SKIN_IMAGE.png" />
+<res type="img" name="IDB_BT_SKIN_COLOR" file="skins\default\BT_SKIN_COLOR.png" />
+<res type="img" name="IDB_SKIN_PUSHED_BKG" file="skins\default\SkinPushedBkg.png" />
+<res type="img" name="IDB_SKIN_BKG" file="skins\default\SkinBkg.png" />
+<res type="img" name="IDB_DROP_DOWN" file="skins\default\BT_DROP_DOWN.png" />
+<res type="img" name="IDB_KEY_BOARD" file="skins\default\BT_KEY_BOARD.png" />
+<res type="img" name="IDB_EDIT_USER" file="skins\simage\edit_user.png" />
+<res type="img" name="IDB_COMPUTER" file="skins\simage\computer.png" />
+<res type="img" name="IDB_EDIT_PWD" file="skins\simage\password.png" />
+<res type="img" name="IDB_LINE_RP" file="skins\default\rp_line.png" />
+<res type="img" name="IDB_SPLIT_HORI" file="skins\default\split_hori.png" />
+<res type="img" name="IDB_SPLIT_VERT" file="skins\default\split_vert.png" />
+<res type="img" name="IDB_SPLIT_THUMB_HORI" file="skins\default\split_thumb_hori.jpg" />
+<res type="img" name="IDB_SPLIT_THUMB_VERT" file="skins\default\split_thumb_vert.jpg" />
+<res type="img" name="IDB_TOOLBAR_BG" file="skins\default\toolbar_bg.png" />
+
+<res type="img" name="IDB_MENU_BACK" file="skins\menu\menu_bkg.png" />
+<res type="img" name="IDB_MENU_SEP" file="skins\menu\menu_sep.png" />
+<res type="img" name="IDB_MENU_ARROW" file="skins\menu\menu_arrow.png" />
+
+<res type="img" name="SKIN_PIC_0" file="bkimg\SKIN_PIC_0.png" />
+
+<res type="img" name="IDB_ICON_CHECK" file="skins\image\icon_check.png" />
+<res type="img" name="IDB_ICON_INFO" file="skins\image\icon_info.png" />
+<res type="img" name="IDB_ICON_QUESTION" file="skins\image\icon_question.png" />
+<res type="img" name="IDB_ICON_WARN" file="skins\image\icon_warning.png" />
+<res type="img" name="IDB_ICON_ERROR" file="skins\image\icon_error.png" />
+
+<res type="img" name="IDB_MENU_UPDATE" file="skins\menu\MENU_UPDATE.png" />
+<res type="img" name="IDB_MENU_AUTH" file="skins\menu\MENU_AUTH.png" />
+<res type="img" name="IDB_MENU_HELP" file="skins\menu\MENU_HELP.png" />
+<res type="img" name="IDB_MENU_SETUP" file="skins\menu\MENU_SETUP.png" />
+
+<res type="img" name="IDB_SCAN_ANIMATE" file="skins\default\scan_animate.png" />
+<res type="img" name="IDB_SCAN_STATUS_360" file="skins\360\SkanMovie01.png" />
+<res type="img" name="IDB_REPAIR_STATUS_360" file="skins\360\RepairMovie01.png" />
+<res type="img" name="IDB_SCAN_STATUS_QQ" file="skins\qq\HPScanStatus.png" />
+<res type="img" name="IDB_NUMBER_SAFE" file="skins\qq\SefaNumber.png" />
+<res type="img" name="IDB_NUMBER_DANGER" file="skins\qq\DangerNumber.png" />
+<res type="img" name="IDB_NUMBER_HINT" file="skins\qq\HintNumber.png" />
+<res type="img" name="IDB_NUMBER_WHITE" file="skins\qq\WhiteNumber.png" />
+
+<res type="img" name="IDB_LOGIN_USER" file="skins\qq\HEAD_101.png" />
+<res type="img" name="IDB_SET_SERVER" file="skins\icon\SMBPrefs.png" />
+
+
+
+  <!--图片资源-360风格-->
+
+
+<!--字符串资源-->
+<res type="str" lang="zh-cn" name="APP_NAME" value="天融信存储数据防泄漏" />
+<res type="str" lang="zh-cn" name="APP_VER" value="TopStrDlp_x64_v3.0.0.1B_170914_Win" />
+<res type="str" lang="zh-cn" name="OK" value="确定" />
+<res type="str" lang="zh-cn" name="CANCEL" value="放弃" />
+<res type="str" lang="zh-cn" name="YES" value="是" />
+<res type="str" lang="zh-cn" name="NO" value="否" />
+<res type="str" lang="zh-cn" name="LOGIN" value="登录" />
+
+</root>

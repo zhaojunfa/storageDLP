@@ -1,0 +1,298 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{CDB3C545-935A-4DFA-9B1D-674ABB164F47}</ProjectGuid>
+    <RootNamespace>TrayHost</RootNamespace>
+    <Keyword>MFCProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <TargetName>TepTrayHost</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <TargetName>TrayHost</TargetName>
+    <OutDir>..\..\product</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <TargetName>TrayHost</TargetName>
+    <OutDir>..\..\product</OutDir>
+    <IntDir>$(Platform)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\include\DuiVision\include;..\include\DuiVision\common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>
+      </AdditionalDependencies>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\include\DuiVision\include;..\include\DuiVision\common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>..\lib\x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>DuiVision.2010d.lib</AdditionalDependencies>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>Disabled</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\include\DuiVision\include;..\include\DuiVision\common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <ProgramDatabaseFile>$(TargetDir)PDBs\$(TargetName).pdb</ProgramDatabaseFile>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>Disabled</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\include\DuiVision\include;..\include\DuiVision\common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <ProgramDatabaseFile>$(TargetDir)PDBs\$(TargetName).pdb</ProgramDatabaseFile>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="..\include\DuiVision\activex\flash10t.tlh" />
+    <None Include="..\include\DuiVision\activex\flash10t.tli" />
+    <None Include="..\include\DuiVision\activex\wmp.tlh" />
+    <None Include="..\include\DuiVision\activex\wmp.tli" />
+    <None Include="ReadMe.txt" />
+    <None Include="res\TrayHost.ico" />
+    <None Include="res\TrayHost.rc2" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\TEPCode\interface\sqlite\sqlite3.h" />
+    <ClInclude Include="..\..\..\TEPCode\interface\sqlite\SqliteDataBase.h" />
+    <ClInclude Include="..\..\include\db\CStorageFileTable.h" />
+    <ClInclude Include="..\..\include\db\CStorageIsolateTable.h" />
+    <ClInclude Include="..\include\DuiVision\activex\duicomcli.h" />
+    <ClInclude Include="..\include\DuiVision\common\BaseTask.h" />
+    <ClInclude Include="..\include\DuiVision\common\encoding.h" />
+    <ClInclude Include="..\include\DuiVision\common\LogMgr.h" />
+    <ClInclude Include="..\include\DuiVision\common\registry.h" />
+    <ClInclude Include="..\include\DuiVision\common\TaskMgr.h" />
+    <ClInclude Include="..\include\DuiVision\common\WinDwmWrapper.h" />
+    <ClInclude Include="..\include\DuiVision\common\XUnZip.h" />
+    <ClInclude Include="..\include\DuiVision\pugixml\foreach.hpp" />
+    <ClInclude Include="..\include\DuiVision\pugixml\pugiconfig.hpp" />
+    <ClInclude Include="..\include\DuiVision\pugixml\pugixml.hpp" />
+    <ClInclude Include="DuiControlEx\MFCDateTime.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="TrayHost.h" />
+    <ClInclude Include="TrayHostDlg.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\TEPCode\interface\sqlite\sqlite3.c">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\include\DuiVision\common\LogMgr.cpp" />
+    <ClCompile Include="..\include\DuiVision\common\TaskMgr.cpp" />
+    <ClCompile Include="..\include\DuiVision\common\WinDwmWrapper.cpp" />
+    <ClCompile Include="..\include\DuiVision\common\XUnzip.cpp" />
+    <ClCompile Include="..\include\DuiVision\pugixml\pugixml.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\include\DuiVision\source\Area.cpp" />
+    <ClCompile Include="..\include\DuiVision\source\CheckButton.cpp" />
+    <ClCompile Include="..\include\DuiVision\source\ControlBase.cpp" />
+    <ClCompile Include="..\include\DuiVision\source\DlgBase.cpp" />
+    <ClCompile Include="..\include\DuiVision\source\DlgPopup.cpp" />
+    <ClCompile Include="..\include\DuiVision\source\DlgSkin.cpp" />
+    <ClCompile Include="..\include\DuiVision\source\DuiActiveX.cpp" />
+    <ClCompile Include="..\include\DuiVision\source\DuiAnimateImg.cpp" />
+    <ClCompile Include="..\include\DuiVision\source\DuiButton.cpp" />
+    <ClCompile Include="..\include\DuiVision\source\DuiComboBox.cpp" />
+    <ClCompile Include="..\include\DuiVision\source\DuiEdit.cpp" />
+    <ClCompile Include="..\include\DuiVision\source\DuiGridCtrl.cpp" />
+    <ClCompile Include="..\include\DuiVision\source\DuiHandler.cpp" />
+    <ClCompile Include="..\include\DuiVision\source\DuiLayout.cpp" />
+    <ClCompile Include="..\include\DuiVision\source\DuiListCtrl.cpp" />
+    <ClCompile Include="..\include\DuiVision\source\DuiMenu.cpp" />
+    <ClCompile Include="..\include\DuiVision\source\DuiNativeWnd.cpp" />
+    <ClCompile Include="..\include\DuiVision\source\DuiObject.cpp" />
+    <ClCompile Include="..\include\DuiVision\source\DuiRichEdit.cpp" />
+    <ClCompile Include="..\include\DuiVision\source\DuiSlider.cpp" />
+    <ClCompile Include="..\include\DuiVision\source\DuiSystem.cpp" />
+    <ClCompile Include="..\include\DuiVision\source\DuiTab.cpp" />
+    <ClCompile Include="..\include\DuiVision\source\DuiText.cpp" />
+    <ClCompile Include="..\include\DuiVision\source\DuiTreeCtrl.cpp" />
+    <ClCompile Include="..\include\DuiVision\source\DuiVisionApp.cpp" />
+    <ClCompile Include="..\include\DuiVision\source\DuiXml.cpp" />
+    <ClCompile Include="..\include\DuiVision\source\Frame.cpp" />
+    <ClCompile Include="..\include\DuiVision\source\GlobalFunction.cpp" />
+    <ClCompile Include="..\include\DuiVision\source\HideButton.cpp" />
+    <ClCompile Include="..\include\DuiVision\source\ImageString.cpp" />
+    <ClCompile Include="..\include\DuiVision\source\LinkButton.cpp" />
+    <ClCompile Include="..\include\DuiVision\source\MenuItem.cpp" />
+    <ClCompile Include="..\include\DuiVision\source\Panel.cpp" />
+    <ClCompile Include="..\include\DuiVision\source\Picture.cpp" />
+    <ClCompile Include="..\include\DuiVision\source\PopupList.cpp" />
+    <ClCompile Include="..\include\DuiVision\source\Progress.cpp" />
+    <ClCompile Include="..\include\DuiVision\source\RadioButton.cpp" />
+    <ClCompile Include="..\include\DuiVision\source\Rectangle.cpp" />
+    <ClCompile Include="..\include\DuiVision\source\Scroll.cpp" />
+    <ClCompile Include="..\include\DuiVision\source\SelectBox.cpp" />
+    <ClCompile Include="..\include\DuiVision\source\TextButton.cpp" />
+    <ClCompile Include="..\include\DuiVision\source\Timer.cpp" />
+    <ClCompile Include="..\include\DuiVision\source\WndBase.cpp" />
+    <ClCompile Include="..\include\DuiVision\source\WndShadow.cpp" />
+    <ClCompile Include="DuiControlEx\MFCDateTime.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="TrayHost.cpp" />
+    <ClCompile Include="TrayHostDlg.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="TrayHost.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+
+<div pos="0,75,-0,-0" >
+  
+  <gridctrl name="gridctrl_isolate" pos="20,10,-20,-40" show="1"
+		img-scroll="skin:IDB_SCROLL_V" img-scrollh="skin:IDB_SCROLL_H" img-sep="skin:IDB_LINE_RP"
+		img-check="skin:IDB_CHECK_BOX"
+		img-header="" img-header-sort="skin:IDB_TREE_COLLAPSE"
+		img-colsep="skin:IDB_TAB_SEPERATOR"
+		img-count="12" image="skin:IDB_LIST_IMG"
+		left-pos="30" row-height="50" header-height="30" bk-transparent="10"
+		header-check="0"
+		font-title="big" align-header="center" valign-header="middle" crheader="128,32,32"
+		font="default" align="left" valign="middle"
+		crtext="255,64,64,64" crhover="128,0,0" crpush="0,112,235"
+		crtitle="32,32,32" crsep="200,160,160,160" crrowhover="50,128,128,128" crrowcurrent="50,128,128,192"
+		down-row="1" column-sep="1" modify-column-width="1"
+		sort-click="1" >
+    <column title="源文件" width="200" />
+    <column title="隔离信息" width="200" />
+    <column title="原因" />
+
+    <row check="0">
+      <item title="test.txt" content="C:\test.txt" font-title="1" />
+      <item title="2017-08-02 14：34：15" content="C:\isolate\u451f5454t.txt" />
+      <item link="文件中包含敏感内容" linkaction=""/>
+    </row>
+    <row check="0">
+      <item title="test.txt" content="C:\test.txt" font-title="1" />
+      <item title="2017-08-02 14：34：15" content="C:\isolate\u451f5454t.txt" />
+      <item link="文件中包含敏感内容" linkaction=""/>
+    </row>
+    <row check="0">
+      <item title="test.txt" content="C:\test.txt" font-title="1" />
+      <item title="2017-08-02 14：34：15" content="C:\isolate\u451f5454t.txt" />
+      <item link="文件中包含敏感内容" linkaction=""/>
+    </row>
+    <row check="0">
+      <item title="test.txt" content="C:\test.txt" font-title="1" />
+      <item title="2017-08-02 14：34：15" content="C:\isolate\u451f5454t.txt" />
+      <item link="文件中包含敏感内容" linkaction=""/>
+    </row>
+    <row check="0">
+      <item title="test.txt" content="C:\test.txt" font-title="1" />
+      <item title="2017-08-02 14：34：15" content="C:\isolate\u451f5454t.txt" />
+      <item link="文件中包含敏感内容" linkaction=""/>
+    </row>
+    <row check="0">
+      <item title="test.txt" content="C:\test.txt" font-title="1" />
+      <item title="2017-08-02 14：34：15" content="C:\isolate\u451f5454t.txt" />
+      <item link="文件中包含敏感内容" linkaction=""/>
+    </row>
+    <row check="0">
+      <item title="test.txt" content="C:\test.txt" font-title="1" />
+      <item title="2017-08-02 14：34：15" content="C:\isolate\u451f5454t.txt" />
+      <item link="文件中包含敏感内容" linkaction=""/>
+    </row>
+    <row check="0">
+      <item title="test.txt" content="C:\test.txt" font-title="1" />
+      <item title="2017-08-02 14：34：15" content="C:\isolate\u451f5454t.txt" />
+      <item link="文件中包含敏感内容" linkaction=""/>
+    </row>
+    <row check="0">
+      <item title="test.txt" content="C:\test.txt" font-title="1" />
+      <item title="2017-08-02 14：34：15" content="C:\isolate\u451f5454t.txt" />
+      <item link="文件中包含敏感内容" linkaction=""/>
+    </row>
+    <row check="0">
+      <item title="test.txt" content="C:\test.txt" font-title="1" />
+      <item title="2017-08-02 14：34：15" content="C:\isolate\u451f5454t.txt" />
+      <item link="文件中包含敏感内容" linkaction=""/>
+    </row>
+    <row check="0">
+      <item title="test.txt" content="C:\test.txt" font-title="1" />
+      <item title="2017-08-02 14：34：15" content="C:\isolate\u451f5454t.txt" />
+      <item link="文件中包含敏感内容" linkaction=""/>
+    </row>
+    <row check="0">
+      <item title="test.txt" content="C:\000000000000000000000000000000000000test.txt" font-title="1" />
+      <item title="2017-08-02 14：34：15" content="C:\iso000000000000000000000000000000000000late\u451f5454t.txt" />
+      <item link="文件中包含敏感内容" linkaction=""/>
+    </row>
+    
+    
+  </gridctrl>
+  <div pos="0,-40,-0,-0">
+    <button name="btn.restorage" pos="20,-32,100,-8" title="恢复" skin="IDB_BT_DEFAULT"/>
+    <button name="btn.reflesh" pos="120,-32,200,-8" title="刷新" skin="IDB_BT_DEFAULT"/>
+  </div>
+  
+</div>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+
+<div pos="0,75,-0,-0" >
+  <gridctrl name="gridctrl_config" pos="20,10,-20,-5" show="1"
+		img-scroll="skin:IDB_SCROLL_V" img-scrollh="skin:IDB_SCROLL_H" img-sep="skin:IDB_LINE_RP"
+		img-check="skin:IDB_CHECK_BOX"
+		img-header="" img-header-sort="skin:IDB_TREE_COLLAPSE"
+		img-colsep="skin:IDB_TAB_SEPERATOR"
+		img-count="12" image="skin:IDB_LIST_IMG"
+		left-pos="30" row-height="50" header-height="20" bk-transparent="10"
+		header-check="-1"
+		font-title="big" align-header="center" valign-header="middle" crheader="128,32,32"
+		font="default" align="left" valign="middle"
+		crtext="255,64,64,64" crhover="128,0,0" crpush="0,112,235"
+		crtitle="32,32,32" crsep="200,160,160,160" crrowhover="50,128,128,128" crrowcurrent="50,128,128,192"
+		down-row="1" column-sep="" modify-column-width="1"
+		sort-click="">
+
+    <column title="" width="150" />
+    <column title="" width="450" />
+    <column title="" />
+
+    <row image="">
+      <item title="服务器IP：" content="" font-title="1" />
+      <item title="" content="" />
+      <item link="设置" crtext="0000FF" linkaction="dlg:dlg_setserver" align="middle"/>
+      <item/>
+    </row>
+    <row image="" >
+      <item title="最大并发："  content="" font-title="1" />
+      <item title=""      content="" />
+      <item link="设置" crtext="0000FF" linkaction="dlg:dlg_setmaxthread"/>
+      <item title="" />
+    </row>
+    <row image="" >
+      <item title="扫描目录："  content="" font-title="1" />
+      <item title="c:\dsfdsafdsafdsafdsafdsafdfdfdfdfdfdfdfdfdfdfdfdfdfdfdfdfdfdfdfdfdfdfdfdfdfdfd"      content="" />
+      <item title="" />
+    </row>
+    <row image="">
+      <item title="隔离目录：" crtext="640064" content="" font-title="1" />
+      <item title="" content="" />   
+      <item title="" />
+    </row>
+    <row image="">
+      <item title="安全目录：" crtext="640064" content="" font-title="1" />
+      <item title="" content="" />
+      <item title=""/>
+    </row>
+    <row image="">
+      <item title="连接状态：" content="" font-title="1" />
+      <item title="" content="" />
+      <item />
+      <item title=""/>
+    </row>
+  </gridctrl>
+
+</div>

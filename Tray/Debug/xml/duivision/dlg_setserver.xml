@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+
+<dlg name="dlg_setserver" title="" width="420" height="270" appwin="0" resize="0"
+	frame="" bkimg="" crbk="000000"
+	img-shadow="skins\360\window_shadow.png" shadow-wlt="5" shadow-hlt="3" shadow-wrb="5" shadow-hrb="7" >
+
+  <base>
+    <imgbtn name="button.close" pos="-45,0,-0,29" skin="IDB_BT_CLOSE" show="1" shortcut="ESC" />
+    <!--
+    <imgbtn name="button.setup" pos="-74,0,-46,20" skin="IDB_BT_SETUP" show="1"/>
+    -->
+    <text name="title" crtext="FFFFFF" crmark="800000" font="big"
+				pos="10,5,200,25" title="服务器设置" mask="" response="0" show="1" />
+     
+  </base>
+
+  <body>
+    <area name="area-1" pos="0,0,-0,140" begin-transparent="100" end-transparent="40" />
+    <area name="area-2" pos="0,140,-0,-0" begin-transparent="40" end-transparent="40" />
+    <area name="area-3" pos="0,-37,-0,-36" begin-transparent="70" end-transparent="70" />
+    <area name="area-4" pos="0,-36,-0,-0" begin-transparent="88" end-transparent="88" />
+
+    <text name="text.server.ip" crtext="800000" pos="45,96,120,145" show="1" title="服务器IP:" />
+    <edit name="edit.server.ip" skin="IDB_EDIT" left-image="skin:IDB_COMPUTER"
+					pos="120,90" width="220" height="32" title="" tip="请输入终端服务器的IP"
+					multiline="0" wantreturn="0" autohscroll="1" autovscroll="0" number="0" readonly="0" maxchar="50"
+					font="default" crtext="0,0,0" crtip="128,128,128,128" />
+
+    <text name="text.server.port" crtext="800000" pos="45,135,120,180" show="1" title="服务器端口:" />
+    <edit name="edit.server.port" skin="IDB_EDIT" left-image="skin:IDB_COMPUTER"
+					pos="120,129" width="220" height="32" title="" password="0" tip="请输入终端服务器的端口"
+					multiline="0" wantreturn="0" autohscroll="1" autovscroll="0" number="0" readonly="0" maxchar="50"
+					font="default" crtext="0,0,0" crtip="128,128,128,128" />
+
+    <button name="btn.setserver" skin="IDB_BT_DEFAULT" title="设置" pos="-100,-30,-20,-6" show="1" shortcut="ESC" />
+
+  </body>
+
+</dlg>
