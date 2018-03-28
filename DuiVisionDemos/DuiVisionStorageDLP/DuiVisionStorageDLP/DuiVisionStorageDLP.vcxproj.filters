@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{6f9d454f-7d52-4f48-866a-bc4b114be25c}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{c746511d-e1c3-4863-8bc5-b13cc0fa9873}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{76652590-34dc-471f-b96e-5932c91520f7}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;jpg;jpeg;jpe;manifest</Extensions>
+    </Filter>
+    <Filter Include="xml">
+      <UniqueIdentifier>{b3660438-97db-4e56-b5e5-e3c161cf7db8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="xml\app">
+      <UniqueIdentifier>{e5459a4f-cda6-4c05-a980-d15b894ef43a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="xml\duivision">
+      <UniqueIdentifier>{7dfc6877-8124-450b-a346-76484515de60}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Readme.txt" />
+    <None Include="res\DuiVisionStorageDLP.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\DuiVisionStorageDLP.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\bin\xml\app\tab_Home.xml">
+      <Filter>xml\app</Filter>
+    </None>
+    <None Include="..\bin\xml\duivision\dlg_about.xml">
+      <Filter>xml\duivision</Filter>
+    </None>
+    <None Include="..\bin\xml\duivision\dlg_main.xml">
+      <Filter>xml\duivision</Filter>
+    </None>
+    <None Include="..\bin\xml\duivision\menu_main.xml">
+      <Filter>xml\duivision</Filter>
+    </None>
+    <None Include="..\bin\xml\duivision\menu_tray.xml">
+      <Filter>xml\duivision</Filter>
+    </None>
+    <None Include="..\bin\xml\def_string_en-us.xml">
+      <Filter>xml</Filter>
+    </None>
+    <None Include="..\bin\xml\def_string_zh-cn.xml">
+      <Filter>xml</Filter>
+    </None>
+    <None Include="..\bin\xml\dlg_msgbox.xml">
+      <Filter>xml</Filter>
+    </None>
+    <None Include="..\bin\xml\dlg_notifymsg.xml">
+      <Filter>xml</Filter>
+    </None>
+    <None Include="..\bin\xml\dlg_skin.xml">
+      <Filter>xml</Filter>
+    </None>
+    <None Include="..\bin\xml\resource.xml">
+      <Filter>xml</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DuiVisionStorageDLP.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DuiHandlerMain.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DuiHandlerHome.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DuiVisionStorageDLP.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DuiHandlerMain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DuiHandlerHome.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="DuiVisionStorageDLP.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

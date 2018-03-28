@@ -1,0 +1,133 @@
+﻿生成启动时间为 2018/3/28 14:49:06。
+     1>项目“C:\work\trunk\EndpointProduct\storageDLP\DuiVisionDemos\DuiVisionStorageDLP\DuiVision\DuiVision.2010.vcxproj”在节点 2 上(rebuild 个目标)。
+     1>_PrepareForClean:
+         正在删除文件“Debug\DuiVision.2010.lastbuildstate”。
+       InitializeBuildStatus:
+         正在创建“Debug\DuiVision.2010.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Iinclude /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\DuiVision.2010.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Stdafx.cpp
+         Stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Iinclude /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\DuiVision.2010.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt common\LogMgr.cpp common\TaskMgr.cpp common\WinDwmWrapper.cpp common\XUnzip.cpp DuiVision.cpp source\Area.cpp source\CheckButton.cpp source\ControlBase.cpp source\DlgBase.cpp source\DlgPopup.cpp source\DlgSkin.cpp source\DuiActiveX.cpp source\DuiButton.cpp source\DuiComboBox.cpp source\DuiEdit.cpp source\DuiGridCtrl.cpp source\DuiHandler.cpp source\DuiLayout.cpp source\DuiListCtrl.cpp source\DuiMenu.cpp source\DuiNativeWnd.cpp source\DuiObject.cpp source\DuiRichEdit.cpp source\DuiSlider.cpp source\DuiSystem.cpp source\DuiTab.cpp source\DuiText.cpp source\DuiTreeCtrl.cpp source\DuiVisionApp.cpp source\DuiWkeView.cpp source\DuiXml.cpp source\GlobalFunction.cpp source\HideButton.cpp source\ImageString.cpp source\LinkButton.cpp source\MenuItem.cpp source\Panel.cpp source\Picture.cpp source\PopupList.cpp source\Progress.cpp source\RadioButton.cpp source\Rectangle.cpp source\DuiAnimateImg.cpp source\Scroll.cpp source\SelectBox.cpp source\TextButton.cpp source\Timer.cpp source\WndBase.cpp source\WndShadow.cpp
+         WndShadow.cpp
+         WndBase.cpp
+         Timer.cpp
+         TextButton.cpp
+         SelectBox.cpp
+         Scroll.cpp
+         DuiAnimateImg.cpp
+         Rectangle.cpp
+         RadioButton.cpp
+         Progress.cpp
+         PopupList.cpp
+         Picture.cpp
+         Panel.cpp
+         MenuItem.cpp
+         LinkButton.cpp
+         ImageString.cpp
+         HideButton.cpp
+         GlobalFunction.cpp
+         DuiXml.cpp
+         DuiWkeView.cpp
+         Automatically linking with imm32.lib
+         正在生成代码...
+         正在编译...
+         DuiVisionApp.cpp
+         DuiTreeCtrl.cpp
+         DuiText.cpp
+         DuiTab.cpp
+         DuiSystem.cpp
+         DuiSlider.cpp
+         DuiRichEdit.cpp
+         Automatically linking with imm32.lib
+         DuiObject.cpp
+         DuiNativeWnd.cpp
+         DuiMenu.cpp
+         DuiListCtrl.cpp
+         DuiLayout.cpp
+         DuiHandler.cpp
+         DuiGridCtrl.cpp
+         DuiEdit.cpp
+         DuiComboBox.cpp
+         DuiButton.cpp
+         DuiActiveX.cpp
+         DlgSkin.cpp
+         DlgPopup.cpp
+         正在生成代码...
+         正在编译...
+         DlgBase.cpp
+         ControlBase.cpp
+         CheckButton.cpp
+         Area.cpp
+         DuiVision.cpp
+         XUnzip.cpp
+         WinDwmWrapper.cpp
+         TaskMgr.cpp
+         LogMgr.cpp
+         正在生成代码...
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Iinclude /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt pugixml\pugixml.cpp
+         pugixml.cpp
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _UNICODE /D UNICODE /D _AFXDLL /l"0x0409" /nologo /fo"Debug\app.res" app.rc 
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"C:\work\trunk\EndpointProduct\storageDLP\DuiVisionDemos\DuiVisionStorageDLP\Lib\DuiVision.2010.lib" /NOLOGO Debug\app.res
+         Debug\LogMgr.obj
+         Debug\TaskMgr.obj
+         Debug\WinDwmWrapper.obj
+         Debug\XUnzip.obj
+         Debug\DuiVision.obj
+         Debug\pugixml.obj
+         Debug\Area.obj
+         Debug\CheckButton.obj
+         Debug\ControlBase.obj
+         Debug\DlgBase.obj
+         Debug\DlgPopup.obj
+         Debug\DlgSkin.obj
+         Debug\DuiActiveX.obj
+         Debug\DuiButton.obj
+         Debug\DuiComboBox.obj
+         Debug\DuiEdit.obj
+         Debug\DuiGridCtrl.obj
+         Debug\DuiHandler.obj
+         Debug\DuiLayout.obj
+         Debug\DuiListCtrl.obj
+         Debug\DuiMenu.obj
+         Debug\DuiNativeWnd.obj
+         Debug\DuiObject.obj
+         Debug\DuiRichEdit.obj
+         Debug\DuiSlider.obj
+         Debug\DuiSystem.obj
+         Debug\DuiTab.obj
+         Debug\DuiText.obj
+         Debug\DuiTreeCtrl.obj
+         Debug\DuiVisionApp.obj
+         Debug\DuiWkeView.obj
+         Debug\DuiXml.obj
+         Debug\GlobalFunction.obj
+         Debug\HideButton.obj
+         Debug\ImageString.obj
+         Debug\LinkButton.obj
+         Debug\MenuItem.obj
+         Debug\Panel.obj
+         Debug\Picture.obj
+         Debug\PopupList.obj
+         Debug\Progress.obj
+         Debug\RadioButton.obj
+         Debug\Rectangle.obj
+         Debug\DuiAnimateImg.obj
+         Debug\Scroll.obj
+         Debug\SelectBox.obj
+         Debug\TextButton.obj
+         Debug\Timer.obj
+         Debug\WndBase.obj
+         Debug\WndShadow.obj
+         Debug\Stdafx.obj
+     1>LINK : warning LNK4068: 未指定 /MACHINE；默认设置为 X86
+         DuiVision.2010.vcxproj -> C:\work\trunk\EndpointProduct\storageDLP\DuiVisionDemos\DuiVisionStorageDLP\Lib\DuiVision.2010.lib
+       FinalizeBuildStatus:
+         正在删除文件“Debug\DuiVision.2010.unsuccessfulbuild”。
+         正在对“Debug\DuiVision.2010.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“C:\work\trunk\EndpointProduct\storageDLP\DuiVisionDemos\DuiVisionStorageDLP\DuiVision\DuiVision.2010.vcxproj”(rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:11.36

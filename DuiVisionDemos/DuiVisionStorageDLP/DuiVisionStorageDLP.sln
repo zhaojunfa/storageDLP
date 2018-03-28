@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DuiVisionStorageDLP", "DuiVisionStorageDLP\DuiVisionStorageDLP.vcxproj", "{5DAD6ED1-6ED2-48BF-9EFA-801C9D3CA966}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		DebugMulti|Win32 = DebugMulti|Win32
+		Release|Win32 = Release|Win32
+		ReleaseMulti|Win32 = ReleaseMulti|Win32
+		Release-StaticMFC|Win32 = Release-StaticMFC|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5DAD6ED1-6ED2-48BF-9EFA-801C9D3CA966}.Debug|Win32.ActiveCfg = Debug|Win32
+		{5DAD6ED1-6ED2-48BF-9EFA-801C9D3CA966}.Debug|Win32.Build.0 = Debug|Win32
+		{5DAD6ED1-6ED2-48BF-9EFA-801C9D3CA966}.DebugMulti|Win32.ActiveCfg = Debug|Win32
+		{5DAD6ED1-6ED2-48BF-9EFA-801C9D3CA966}.DebugMulti|Win32.Build.0 = Debug|Win32
+		{5DAD6ED1-6ED2-48BF-9EFA-801C9D3CA966}.Release|Win32.ActiveCfg = Release|Win32
+		{5DAD6ED1-6ED2-48BF-9EFA-801C9D3CA966}.Release|Win32.Build.0 = Release|Win32
+		{5DAD6ED1-6ED2-48BF-9EFA-801C9D3CA966}.ReleaseMulti|Win32.ActiveCfg = Release|Win32
+		{5DAD6ED1-6ED2-48BF-9EFA-801C9D3CA966}.ReleaseMulti|Win32.Build.0 = Release|Win32
+		{5DAD6ED1-6ED2-48BF-9EFA-801C9D3CA966}.Release-StaticMFC|Win32.ActiveCfg = Release|Win32
+		{5DAD6ED1-6ED2-48BF-9EFA-801C9D3CA966}.Release-StaticMFC|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

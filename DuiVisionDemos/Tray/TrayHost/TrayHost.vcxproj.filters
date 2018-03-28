@@ -1,0 +1,296 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="xml">
+      <UniqueIdentifier>{43bb5355-3a16-4c42-bd92-401fe1530ec2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DUI">
+      <UniqueIdentifier>{f575ccc5-b817-49a3-a9fe-4282929e4dfa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DUI\DuiSource">
+      <UniqueIdentifier>{04fb2598-cc5a-4861-9e2a-3196034b3cad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DUI\Duipugixml">
+      <UniqueIdentifier>{f2b7bf41-6a6c-437f-9e9c-6208fe743ecd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DUI\DuiControlEx">
+      <UniqueIdentifier>{b5d443a2-9434-407a-9349-1086fdb238d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DUI\DuiCommon">
+      <UniqueIdentifier>{3a536ae5-4d54-4962-9913-414c36181ddf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DUI\activex">
+      <UniqueIdentifier>{82a24df1-86f6-43af-80be-8534d2ca6f5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="db">
+      <UniqueIdentifier>{80b147d4-0a54-4a96-9065-ef6776d9b689}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="res\TrayHost.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\TrayHost.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="..\include\DuiVision\activex\flash10t.tlh">
+      <Filter>DUI\activex</Filter>
+    </None>
+    <None Include="..\include\DuiVision\activex\flash10t.tli">
+      <Filter>DUI\activex</Filter>
+    </None>
+    <None Include="..\include\DuiVision\activex\wmp.tlh">
+      <Filter>DUI\activex</Filter>
+    </None>
+    <None Include="..\include\DuiVision\activex\wmp.tli">
+      <Filter>DUI\activex</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="TrayHost.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TrayHostDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DuiControlEx\MFCDateTime.h">
+      <Filter>DUI\DuiControlEx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\DuiVision\common\BaseTask.h">
+      <Filter>DUI\DuiCommon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\DuiVision\common\encoding.h">
+      <Filter>DUI\DuiCommon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\DuiVision\common\LogMgr.h">
+      <Filter>DUI\DuiCommon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\DuiVision\common\registry.h">
+      <Filter>DUI\DuiCommon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\DuiVision\common\TaskMgr.h">
+      <Filter>DUI\DuiCommon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\DuiVision\common\WinDwmWrapper.h">
+      <Filter>DUI\DuiCommon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\DuiVision\common\XUnZip.h">
+      <Filter>DUI\DuiCommon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\DuiVision\pugixml\foreach.hpp">
+      <Filter>DUI\Duipugixml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\DuiVision\pugixml\pugiconfig.hpp">
+      <Filter>DUI\Duipugixml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\DuiVision\pugixml\pugixml.hpp">
+      <Filter>DUI\Duipugixml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\DuiVision\activex\duicomcli.h">
+      <Filter>DUI\activex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\db\CStorageIsolateTable.h">
+      <Filter>db</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\db\CStorageFileTable.h">
+      <Filter>db</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\TEPCode\interface\sqlite\sqlite3.h">
+      <Filter>db</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\TEPCode\interface\sqlite\SqliteDataBase.h">
+      <Filter>db</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="TrayHost.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TrayHostDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DuiControlEx\MFCDateTime.cpp">
+      <Filter>DUI\DuiControlEx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\DuiVision\common\LogMgr.cpp">
+      <Filter>DUI\DuiCommon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\DuiVision\common\TaskMgr.cpp">
+      <Filter>DUI\DuiCommon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\DuiVision\common\WinDwmWrapper.cpp">
+      <Filter>DUI\DuiCommon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\DuiVision\common\XUnzip.cpp">
+      <Filter>DUI\DuiCommon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\DuiVision\pugixml\pugixml.cpp">
+      <Filter>DUI\Duipugixml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\DuiVision\source\Area.cpp">
+      <Filter>DUI\DuiSource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\DuiVision\source\CheckButton.cpp">
+      <Filter>DUI\DuiSource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\DuiVision\source\ControlBase.cpp">
+      <Filter>DUI\DuiSource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\DuiVision\source\DlgBase.cpp">
+      <Filter>DUI\DuiSource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\DuiVision\source\DlgPopup.cpp">
+      <Filter>DUI\DuiSource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\DuiVision\source\DlgSkin.cpp">
+      <Filter>DUI\DuiSource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\DuiVision\source\DuiActiveX.cpp">
+      <Filter>DUI\DuiSource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\DuiVision\source\DuiAnimateImg.cpp">
+      <Filter>DUI\DuiSource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\DuiVision\source\DuiButton.cpp">
+      <Filter>DUI\DuiSource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\DuiVision\source\DuiComboBox.cpp">
+      <Filter>DUI\DuiSource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\DuiVision\source\DuiEdit.cpp">
+      <Filter>DUI\DuiSource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\DuiVision\source\DuiGridCtrl.cpp">
+      <Filter>DUI\DuiSource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\DuiVision\source\DuiHandler.cpp">
+      <Filter>DUI\DuiSource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\DuiVision\source\DuiLayout.cpp">
+      <Filter>DUI\DuiSource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\DuiVision\source\DuiListCtrl.cpp">
+      <Filter>DUI\DuiSource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\DuiVision\source\DuiMenu.cpp">
+      <Filter>DUI\DuiSource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\DuiVision\source\DuiNativeWnd.cpp">
+      <Filter>DUI\DuiSource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\DuiVision\source\DuiObject.cpp">
+      <Filter>DUI\DuiSource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\DuiVision\source\DuiRichEdit.cpp">
+      <Filter>DUI\DuiSource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\DuiVision\source\DuiSlider.cpp">
+      <Filter>DUI\DuiSource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\DuiVision\source\DuiSystem.cpp">
+      <Filter>DUI\DuiSource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\DuiVision\source\DuiTab.cpp">
+      <Filter>DUI\DuiSource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\DuiVision\source\DuiText.cpp">
+      <Filter>DUI\DuiSource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\DuiVision\source\DuiTreeCtrl.cpp">
+      <Filter>DUI\DuiSource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\DuiVision\source\DuiVisionApp.cpp">
+      <Filter>DUI\DuiSource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\DuiVision\source\DuiXml.cpp">
+      <Filter>DUI\DuiSource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\DuiVision\source\Frame.cpp">
+      <Filter>DUI\DuiSource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\DuiVision\source\GlobalFunction.cpp">
+      <Filter>DUI\DuiSource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\DuiVision\source\HideButton.cpp">
+      <Filter>DUI\DuiSource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\DuiVision\source\ImageString.cpp">
+      <Filter>DUI\DuiSource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\DuiVision\source\LinkButton.cpp">
+      <Filter>DUI\DuiSource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\DuiVision\source\MenuItem.cpp">
+      <Filter>DUI\DuiSource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\DuiVision\source\Panel.cpp">
+      <Filter>DUI\DuiSource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\DuiVision\source\Picture.cpp">
+      <Filter>DUI\DuiSource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\DuiVision\source\PopupList.cpp">
+      <Filter>DUI\DuiSource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\DuiVision\source\Progress.cpp">
+      <Filter>DUI\DuiSource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\DuiVision\source\RadioButton.cpp">
+      <Filter>DUI\DuiSource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\DuiVision\source\Rectangle.cpp">
+      <Filter>DUI\DuiSource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\DuiVision\source\Scroll.cpp">
+      <Filter>DUI\DuiSource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\DuiVision\source\SelectBox.cpp">
+      <Filter>DUI\DuiSource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\DuiVision\source\TextButton.cpp">
+      <Filter>DUI\DuiSource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\DuiVision\source\Timer.cpp">
+      <Filter>DUI\DuiSource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\DuiVision\source\WndBase.cpp">
+      <Filter>DUI\DuiSource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\DuiVision\source\WndShadow.cpp">
+      <Filter>DUI\DuiSource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\TEPCode\interface\sqlite\sqlite3.c">
+      <Filter>db</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="TrayHost.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
