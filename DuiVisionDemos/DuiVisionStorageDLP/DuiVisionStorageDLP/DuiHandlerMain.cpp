@@ -2,8 +2,7 @@
 #include "DuiHandlerMain.h"
 #include "registry.h"
 #include "DuiHandlerHome.h"
-
-//////////////////////////////////////////////////////////////
+//Z在这个头文件中定义消息处理函数
 // CDuiHandlerMain
 
 CDuiHandlerMain::CDuiHandlerMain(void) : CDuiHandler()

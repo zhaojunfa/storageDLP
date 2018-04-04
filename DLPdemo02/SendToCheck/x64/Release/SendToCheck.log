@@ -1,0 +1,148 @@
+﻿生成启动时间为 3/21/2018 1:32:14 PM。
+     1>项目“C:\work\trunk\EndpointProduct\storageDLP\DLPdemo01\SendToCheck\SendToCheck.vcxproj”在节点 2 上(rebuild 个目标)。
+     1>_PrepareForClean:
+         正在删除文件“x64\Release\SendToCheck.lastbuildstate”。
+       InitializeBuildStatus:
+         正在创建“x64\Release\SendToCheck.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /I"C:\work\trunk\third-party\ICAP-WINCLIENT\c_icap-0.4.2\include" /I"C:\work\trunk\third-party\ICAP-WINCLIENT\c_icap-0.4.2" /IC:\work\trunk\code\interface /IC:\work\trunk\code\interface\windows /IC:\work\trunk\EndpointProduct\TEPCode\interface /Zi /nologo /W3 /WX- /Od /Oi /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D SENDTOCHECK_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc100.pdb" /Gd /TC /errorReport:prompt ..\include\sqlite\sqlite3.c
+         sqlite3.c
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /I"C:\work\trunk\third-party\ICAP-WINCLIENT\c_icap-0.4.2\include" /I"C:\work\trunk\third-party\ICAP-WINCLIENT\c_icap-0.4.2" /IC:\work\trunk\code\interface /IC:\work\trunk\code\interface\windows /IC:\work\trunk\EndpointProduct\TEPCode\interface /Zi /nologo /W3 /WX- /Od /Oi /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D SENDTOCHECK_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc100.pdb" /Gd /TP /errorReport:prompt DirectoryChange.cpp dllmain.cpp OnReceive.cpp SendToCheck.cpp stdafx.cpp
+         DirectoryChange.cpp
+     1>C:\work\trunk\EndpointProduct\TEPCode\interface\CMiscHelper.h(2358): warning C4927: 转换非法；隐式应用了多个用户定义的转换
+                 调用构造函数“ATL::CStringT<BaseType,StringTraits>::CStringT(const wchar_t *)”时
+                 with
+                 [
+                     BaseType=wchar_t,
+                     StringTraits=ATL::StrTraitATL<wchar_t,ATL::ChTraitsCRT<wchar_t>>
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\atlmfc\include\cstringt.h(961) : 参见“ATL::CStringT<BaseType,StringTraits>::CStringT”的声明
+                 with
+                 [
+                     BaseType=wchar_t,
+                     StringTraits=ATL::StrTraitATL<wchar_t,ATL::ChTraitsCRT<wchar_t>>
+                 ]
+     1>C:\work\trunk\EndpointProduct\TEPCode\interface\CMiscHelper.h(2378): warning C4267: “初始化”: 从“size_t”转换到“ULONG”，可能丢失数据
+     1>C:\work\trunk\EndpointProduct\storageDLP\DLPdemo01\include\db\CStorageFileTable.h(106): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(867) : 参见“itoa”的声明
+     1>c:\work\trunk\endpointproduct\tepcode\interface\xmlmsg\XmlNode.h(14): warning C4192: 导入类型库“ISequentialStream”时自动排除“msxml6.dll”
+     1>c:\work\trunk\endpointproduct\tepcode\interface\xmlmsg\XmlNode.h(14): warning C4192: 导入类型库“_FILETIME”时自动排除“msxml6.dll”
+     1>C:\work\trunk\EndpointProduct\TEPCode\EApp\include\DlpHttpQuery.h(195): warning C4267: “参数”: 从“size_t”转换到“DWORD”，可能丢失数据
+     1>C:\work\trunk\EndpointProduct\TEPCode\EApp\include\DlpHttpQuery.h(204): warning C4267: “参数”: 从“size_t”转换到“DWORD”，可能丢失数据
+     1>DirectoryChange.cpp(275): warning C4995: “wsprintf”: 名称被标记为 #pragma deprecated
+     1>DirectoryChange.cpp(275): warning C4995: “wsprintfW”: 名称被标记为 #pragma deprecated
+     1>DirectoryChange.cpp(282): warning C4995: “lstrcpy”: 名称被标记为 #pragma deprecated
+     1>DirectoryChange.cpp(282): warning C4995: “lstrcpyW”: 名称被标记为 #pragma deprecated
+     1>DirectoryChange.cpp(284): warning C4995: “lstrcat”: 名称被标记为 #pragma deprecated
+     1>DirectoryChange.cpp(284): warning C4995: “lstrcatW”: 名称被标记为 #pragma deprecated
+     1>DirectoryChange.cpp(285): warning C4995: “lstrcat”: 名称被标记为 #pragma deprecated
+     1>DirectoryChange.cpp(285): warning C4995: “lstrcatW”: 名称被标记为 #pragma deprecated
+     1>DirectoryChange.cpp(299): warning C4995: “wsprintf”: 名称被标记为 #pragma deprecated
+     1>DirectoryChange.cpp(299): warning C4995: “wsprintfW”: 名称被标记为 #pragma deprecated
+     1>DirectoryChange.cpp(301): warning C4995: “wsprintf”: 名称被标记为 #pragma deprecated
+     1>DirectoryChange.cpp(301): warning C4995: “wsprintfW”: 名称被标记为 #pragma deprecated
+     1>DirectoryChange.cpp(308): warning C4995: “wsprintf”: 名称被标记为 #pragma deprecated
+     1>DirectoryChange.cpp(308): warning C4995: “wsprintfW”: 名称被标记为 #pragma deprecated
+     1>DirectoryChange.cpp(310): warning C4995: “wsprintf”: 名称被标记为 #pragma deprecated
+     1>DirectoryChange.cpp(310): warning C4995: “wsprintfW”: 名称被标记为 #pragma deprecated
+         dllmain.cpp
+     1>C:\work\trunk\EndpointProduct\TEPCode\interface\CMiscHelper.h(2358): warning C4927: 转换非法；隐式应用了多个用户定义的转换
+                 调用构造函数“ATL::CStringT<BaseType,StringTraits>::CStringT(const wchar_t *)”时
+                 with
+                 [
+                     BaseType=wchar_t,
+                     StringTraits=ATL::StrTraitATL<wchar_t,ATL::ChTraitsCRT<wchar_t>>
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\atlmfc\include\cstringt.h(961) : 参见“ATL::CStringT<BaseType,StringTraits>::CStringT”的声明
+                 with
+                 [
+                     BaseType=wchar_t,
+                     StringTraits=ATL::StrTraitATL<wchar_t,ATL::ChTraitsCRT<wchar_t>>
+                 ]
+     1>C:\work\trunk\EndpointProduct\TEPCode\interface\CMiscHelper.h(2378): warning C4267: “初始化”: 从“size_t”转换到“ULONG”，可能丢失数据
+     1>C:\work\trunk\EndpointProduct\storageDLP\DLPdemo01\include\db\CStorageFileTable.h(106): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(867) : 参见“itoa”的声明
+     1>C:\work\trunk\EndpointProduct\TEPCode\EApp\include\DlpHttpQuery.h(195): warning C4267: “参数”: 从“size_t”转换到“DWORD”，可能丢失数据
+     1>C:\work\trunk\EndpointProduct\TEPCode\EApp\include\DlpHttpQuery.h(204): warning C4267: “参数”: 从“size_t”转换到“DWORD”，可能丢失数据
+         OnReceive.cpp
+     1>C:\work\trunk\EndpointProduct\TEPCode\interface\CMiscHelper.h(2358): warning C4927: 转换非法；隐式应用了多个用户定义的转换
+                 调用构造函数“ATL::CStringT<BaseType,StringTraits>::CStringT(const wchar_t *)”时
+                 with
+                 [
+                     BaseType=wchar_t,
+                     StringTraits=ATL::StrTraitATL<wchar_t,ATL::ChTraitsCRT<wchar_t>>
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\atlmfc\include\cstringt.h(961) : 参见“ATL::CStringT<BaseType,StringTraits>::CStringT”的声明
+                 with
+                 [
+                     BaseType=wchar_t,
+                     StringTraits=ATL::StrTraitATL<wchar_t,ATL::ChTraitsCRT<wchar_t>>
+                 ]
+     1>C:\work\trunk\EndpointProduct\TEPCode\interface\CMiscHelper.h(2378): warning C4267: “初始化”: 从“size_t”转换到“ULONG”，可能丢失数据
+     1>C:\work\trunk\EndpointProduct\storageDLP\DLPdemo01\include\db\CStorageFileTable.h(106): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(867) : 参见“itoa”的声明
+     1>C:\work\trunk\EndpointProduct\TEPCode\EApp\include\DlpHttpQuery.h(195): warning C4267: “参数”: 从“size_t”转换到“DWORD”，可能丢失数据
+     1>C:\work\trunk\EndpointProduct\TEPCode\EApp\include\DlpHttpQuery.h(204): warning C4267: “参数”: 从“size_t”转换到“DWORD”，可能丢失数据
+         SendToCheck.cpp
+     1>C:\work\trunk\EndpointProduct\TEPCode\interface\CMiscHelper.h(2358): warning C4927: 转换非法；隐式应用了多个用户定义的转换
+                 调用构造函数“ATL::CStringT<BaseType,StringTraits>::CStringT(const wchar_t *)”时
+                 with
+                 [
+                     BaseType=wchar_t,
+                     StringTraits=ATL::StrTraitATL<wchar_t,ATL::ChTraitsCRT<wchar_t>>
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\atlmfc\include\cstringt.h(961) : 参见“ATL::CStringT<BaseType,StringTraits>::CStringT”的声明
+                 with
+                 [
+                     BaseType=wchar_t,
+                     StringTraits=ATL::StrTraitATL<wchar_t,ATL::ChTraitsCRT<wchar_t>>
+                 ]
+     1>C:\work\trunk\EndpointProduct\TEPCode\interface\CMiscHelper.h(2378): warning C4267: “初始化”: 从“size_t”转换到“ULONG”，可能丢失数据
+     1>C:\work\trunk\EndpointProduct\storageDLP\DLPdemo01\include\db\CStorageFileTable.h(106): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(867) : 参见“itoa”的声明
+     1>C:\work\trunk\EndpointProduct\TEPCode\EApp\include\DlpHttpQuery.h(195): warning C4267: “参数”: 从“size_t”转换到“DWORD”，可能丢失数据
+     1>C:\work\trunk\EndpointProduct\TEPCode\EApp\include\DlpHttpQuery.h(204): warning C4267: “参数”: 从“size_t”转换到“DWORD”，可能丢失数据
+     1>SendToCheck.cpp(79): warning C4996: '_wcsupr': This function or variable may be unsafe. Consider using _wcsupr_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(342) : 参见“_wcsupr”的声明
+     1>SendToCheck.cpp(369): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+     1>SendToCheck.cpp(708): warning C4267: “初始化”: 从“size_t”转换到“DWORD”，可能丢失数据
+         stdafx.cpp
+     1>C:\work\trunk\EndpointProduct\TEPCode\interface\CMiscHelper.h(2358): warning C4927: 转换非法；隐式应用了多个用户定义的转换
+                 调用构造函数“ATL::CStringT<BaseType,StringTraits>::CStringT(const wchar_t *)”时
+                 with
+                 [
+                     BaseType=wchar_t,
+                     StringTraits=ATL::StrTraitATL<wchar_t,ATL::ChTraitsCRT<wchar_t>>
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\atlmfc\include\cstringt.h(961) : 参见“ATL::CStringT<BaseType,StringTraits>::CStringT”的声明
+                 with
+                 [
+                     BaseType=wchar_t,
+                     StringTraits=ATL::StrTraitATL<wchar_t,ATL::ChTraitsCRT<wchar_t>>
+                 ]
+     1>C:\work\trunk\EndpointProduct\TEPCode\interface\CMiscHelper.h(2378): warning C4267: “初始化”: 从“size_t”转换到“ULONG”，可能丢失数据
+     1>C:\work\trunk\EndpointProduct\storageDLP\DLPdemo01\include\db\CStorageFileTable.h(106): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(867) : 参见“itoa”的声明
+     1>C:\work\trunk\EndpointProduct\TEPCode\EApp\include\DlpHttpQuery.h(195): warning C4267: “参数”: 从“size_t”转换到“DWORD”，可能丢失数据
+     1>C:\work\trunk\EndpointProduct\TEPCode\EApp\include\DlpHttpQuery.h(204): warning C4267: “参数”: 从“size_t”转换到“DWORD”，可能丢失数据
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\work\trunk\EndpointProduct\storageDLP\DLPdemo01\x64\Release\SendToCheck.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:C:\work\trunk\build\lib64 ICAPInterface.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /DEF:"SendToCheck.def" /MANIFEST /ManifestFile:"x64\Release\SendToCheck.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\work\trunk\EndpointProduct\storageDLP\DLPdemo01\x64\Release\SendToCheck.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\work\trunk\EndpointProduct\storageDLP\DLPdemo01\x64\Release\SendToCheck.lib" /MACHINE:X64 /DLL x64\Release\sqlite3.obj
+         x64\Release\DirectoryChange.obj
+         x64\Release\dllmain.obj
+         x64\Release\OnReceive.obj
+         x64\Release\SendToCheck.obj
+         x64\Release\stdafx.obj
+            正在创建库 C:\work\trunk\EndpointProduct\storageDLP\DLPdemo01\x64\Release\SendToCheck.lib 和对象 C:\work\trunk\EndpointProduct\storageDLP\DLPdemo01\x64\Release\SendToCheck.exp
+         正在生成代码
+         已完成代码的生成
+         SendToCheck.vcxproj -> C:\work\trunk\EndpointProduct\storageDLP\DLPdemo01\x64\Release\SendToCheck.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\work\trunk\EndpointProduct\storageDLP\DLPdemo01\x64\Release\SendToCheck.dll;#2" /manifest x64\Release\SendToCheck.dll.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“x64\Release\SendToCheck.unsuccessfulbuild”。
+         正在对“x64\Release\SendToCheck.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“C:\work\trunk\EndpointProduct\storageDLP\DLPdemo01\SendToCheck\SendToCheck.vcxproj”(rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:17.40

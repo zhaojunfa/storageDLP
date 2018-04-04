@@ -11,6 +11,8 @@
 	<text name="title" crtext="FFFFFF" crmark="800000" crshadow="808080" font="big"
 			pos="10,4,250,25" title="[APP_NAME]" response="0" show="1" />
   </base>
+
+
   
   <body>
 

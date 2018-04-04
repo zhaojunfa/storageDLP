@@ -1,0 +1,49 @@
+﻿生成启动时间为 3/21/2018 1:49:21 PM。
+     1>项目“C:\work\trunk\EndpointProduct\storageDLP\DLPdemo01\TestJSON.vcxproj”在节点 2 上(rebuild 个目标)。
+     1>_PrepareForClean:
+         正在删除文件“x64\Release\sever.lastbuildstate”。
+       InitializeBuildStatus:
+         正在对“x64\Release\sever.unsuccessfulbuild”执行 Touch 任务。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /IC:\work\trunk\EndpointProduct\storageDLP\include\sqlite /IC:\work\trunk\EndpointProduct\storageDLP\DLPdemo01\SendToCheck /IC:\work\trunk\EndpointProduct\TEPCode\interface /IC:\work\trunk\EndpointProduct\TEPCode\interface\xmlmsg /Zi /nologo /W3 /WX- /Od /Oi /D _AMD64_ /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc100.pdb" /Gd /TC /errorReport:prompt ..\..\TEPCode\interface\kxml\kstr.c ..\..\TEPCode\interface\kxml\kustr.c
+         kstr.c
+         kustr.c
+         Generating Code...
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /IC:\work\trunk\EndpointProduct\storageDLP\include\sqlite /IC:\work\trunk\EndpointProduct\storageDLP\DLPdemo01\SendToCheck /IC:\work\trunk\EndpointProduct\TEPCode\interface /IC:\work\trunk\EndpointProduct\TEPCode\interface\xmlmsg /Zi /nologo /W3 /WX- /Od /Oi /D _AMD64_ /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc100.pdb" /Gd /TP /errorReport:prompt installTepServer.cpp
+         installTepServer.cpp
+     1>c:\work\trunk\endpointproduct\tepcode\interface\xmlmsg\XmlNode.h(14): warning C4192: 导入类型库“ISequentialStream”时自动排除“msxml6.dll”
+     1>c:\work\trunk\endpointproduct\tepcode\interface\xmlmsg\XmlNode.h(14): warning C4192: 导入类型库“_FILETIME”时自动排除“msxml6.dll”
+     1>C:\work\trunk\EndpointProduct\TEPCode\interface\CMiscHelper.h(2358): warning C4927: 转换非法；隐式应用了多个用户定义的转换
+                 调用构造函数“ATL::CStringT<BaseType,StringTraits>::CStringT(const wchar_t *)”时
+                 with
+                 [
+                     BaseType=wchar_t,
+                     StringTraits=ATL::StrTraitATL<wchar_t,ATL::ChTraitsCRT<wchar_t>>
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\atlmfc\include\cstringt.h(961) : 参见“ATL::CStringT<BaseType,StringTraits>::CStringT”的声明
+                 with
+                 [
+                     BaseType=wchar_t,
+                     StringTraits=ATL::StrTraitATL<wchar_t,ATL::ChTraitsCRT<wchar_t>>
+                 ]
+     1>C:\work\trunk\EndpointProduct\TEPCode\interface\CMiscHelper.h(2378): warning C4267: “初始化”: 从“size_t”转换到“ULONG”，可能丢失数据
+     1>C:\work\trunk\EndpointProduct\TEPCode\EApp\include\DlpHttpQuery.h(195): warning C4267: “参数”: 从“size_t”转换到“DWORD”，可能丢失数据
+     1>C:\work\trunk\EndpointProduct\TEPCode\EApp\include\DlpHttpQuery.h(204): warning C4267: “参数”: 从“size_t”转换到“DWORD”，可能丢失数据
+     1>installTepServer.cpp(35): warning C4996: '_wcsupr': This function or variable may be unsafe. Consider using _wcsupr_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(342) : 参见“_wcsupr”的声明
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\work\trunk\EndpointProduct\storageDLP\DLPdemo01\x64\Release\sever.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:C:\work\trunk\EndpointProduct\storageDLP\DLPdemo01\x64\Release /LIBPATH:C:\work\trunk\EndpointProduct\TEPCode\EApp\Thrid\json\lib\x64 /LIBPATH:C:\work\trunk\EndpointProduct\TEPCode\interface /LIBPATH:C:\work\trunk\EndpointProduct\TEPCode\interface\xmlmsg /LIBPATH:C:\work\trunk\EndpointProduct\TEPCode\EApp\include lib_json.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"x64\Release\sever.exe.intermediate.manifest" /MANIFESTUAC:"level='requireAdministrator' uiAccess='false'" /DEBUG /PDB:"C:\work\trunk\EndpointProduct\storageDLP\DLPdemo01\x64\Release\sever.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\work\trunk\EndpointProduct\storageDLP\DLPdemo01\x64\Release\sever.lib" /MACHINE:X64 x64\Release\kstr.obj
+         x64\Release\kustr.obj
+         x64\Release\installTepServer.obj
+         LINK : 已指定 /LTCG，但不需要生成代码；从链接命令行中移除 /LTCG 以提高链接器性能
+         TestJSON.vcxproj -> C:\work\trunk\EndpointProduct\storageDLP\DLPdemo01\x64\Release\sever.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\work\trunk\EndpointProduct\storageDLP\DLPdemo01\x64\Release\sever.exe;#1" /manifest x64\Release\sever.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“x64\Release\sever.unsuccessfulbuild”。
+         正在对“x64\Release\sever.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“C:\work\trunk\EndpointProduct\storageDLP\DLPdemo01\TestJSON.vcxproj”(rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:04.46

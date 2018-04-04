@@ -1,0 +1,6 @@
+LIBRARY SendToCheck
+EXPORTS
+	DllRegisterServer	PRIVATE
+	DllUnregisterServer	PRIVATE
+	Startup				PRIVATE
+	StopUp				PRIVATE

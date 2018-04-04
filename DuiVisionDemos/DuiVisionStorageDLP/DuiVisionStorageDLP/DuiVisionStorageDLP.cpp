@@ -71,7 +71,7 @@ BOOL CDuiVisionStorageDLPApp::InitInstance()
 		}
 	}
 
-
+	//程序运行顺序:
 	// 创建主窗口
 	CDlgBase* pMainDlg = DuiSystem::CreateDuiDialog(_T("dlg_main"), NULL, _T(""), TRUE);
 	// 给主窗口注册事件处理对象

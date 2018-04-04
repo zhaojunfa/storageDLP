@@ -1,0 +1,30 @@
+﻿生成启动时间为 2017/11/27 10:56:01。
+     1>项目“G:\HUSH\TestJSON\TestJSON.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在对“Release\TestJSON.unsuccessfulbuild”执行 Touch 任务。
+       ClCompile:
+         所有输出均为最新。
+         所有输出均为最新。
+         d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"D:\DLP\third-party\curl-7.38.0\include\curl" /I.\include\sqlite /Zi /nologo /W3 /WX- /Od /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /D _ATL_STATIC_REGISTRY /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt TestJSON.cpp
+         TestJSON.cpp
+     1>TestJSON.cpp(30): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>TestJSON.cpp(35): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+       Link:
+         d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"G:\HUSH\TestJSON\Release\TestJSON.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"D:\DLP\TopDLP-NP\trunk\build\lib" dlp_sysconf_get.lib libcurl_imp.lib ZipDir.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\TestJSON.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"G:\HUSH\TestJSON\Release\TestJSON.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:\HUSH\TestJSON\Release\TestJSON.lib" /MACHINE:X86 Release\sqlite3.obj
+         Release\stdafx.obj
+         Release\TestJSON.obj
+         正在生成代码
+         已完成代码的生成
+         TestJSON.vcxproj -> G:\HUSH\TestJSON\Release\TestJSON.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"G:\HUSH\TestJSON\Release\TestJSON.exe;#1" /manifest Release\TestJSON.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“Release\TestJSON.unsuccessfulbuild”。
+         正在对“Release\TestJSON.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“G:\HUSH\TestJSON\TestJSON.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.48
