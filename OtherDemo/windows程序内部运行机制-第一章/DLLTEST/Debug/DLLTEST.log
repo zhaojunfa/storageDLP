@@ -1,0 +1,16 @@
+﻿生成启动时间为 2018/4/10 20:04:32。
+     1>项目“C:\work\trunk\EndpointProduct\storageDLP\OtherDemo\windows程序内部运行机制-第一章\DLLTEST\DLLTEST.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\DLLTEST.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         所有输出均为最新。
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\work\trunk\EndpointProduct\storageDLP\OtherDemo\windows程序内部运行机制-第一章\Debug\DLLTEST.exe" /NOLOGO /LIBPATH:"C:\work\trunk\EndpointProduct\storageDLP\OtherDemo\windows程序内部运行机制-第一章\Debug" dll1.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\DLLTEST.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\work\trunk\EndpointProduct\storageDLP\OtherDemo\windows程序内部运行机制-第一章\Debug\DLLTEST.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\work\trunk\EndpointProduct\storageDLP\OtherDemo\windows程序内部运行机制-第一章\Debug\DLLTEST.lib" /MACHINE:X86 Debug\dlltest.obj
+         LINK : 没有找到 C:\work\trunk\EndpointProduct\storageDLP\OtherDemo\windows程序内部运行机制-第一章\Debug\DLLTEST.exe 或上一个增量链接没有生成它；正在执行完全链接
+     1>dlltest.obj : error LNK2019: 无法解析的外部符号 "int __cdecl add(int,int)" (?add@@YAHHH@Z)，该符号在函数 _main 中被引用
+     1>C:\work\trunk\EndpointProduct\storageDLP\OtherDemo\windows程序内部运行机制-第一章\Debug\DLLTEST.exe : fatal error LNK1120: 1 个无法解析的外部命令
+     1>已完成生成项目“C:\work\trunk\EndpointProduct\storageDLP\OtherDemo\windows程序内部运行机制-第一章\DLLTEST\DLLTEST.vcxproj”(build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.25

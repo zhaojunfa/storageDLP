@@ -96,7 +96,9 @@
     <None Include="..\bin\xml\duivision\dlg_main.xml" />
     <None Include="..\bin\xml\duivision\menu_main.xml" />
     <None Include="..\bin\xml\duivision\menu_tray.xml" />
-    <None Include="..\bin\xml\resource.xml" />
+    <None Include="..\bin\xml\resource.xml">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="Readme.txt" />
     <None Include="res\DuiVisionStorageDLP.ico" />
     <None Include="res\DuiVisionStorageDLP.rc2" />
